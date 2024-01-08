@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1290px;
+    margin: 0 auto;
+  }
+}
+.header-top {
+  background: #2C2C34;
+}
+.header-top-content ul {
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: -42px;
+}
+.header-top-content ul li {
+  text-decoration: none;
+  border-left: 1px solid rgb(139, 139, 139);
+  padding: 6px 2px 6px 15px;
+}
+.header-top-content ul li a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.navbar > .container-fluid {
+  background: #d4000e;
+  margin-top: 12px;
+}
+
+.navbar-nav {
+  gap: 18px;
+}
+
+a.nav-link {
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  border-right: 1px solid rgba(187, 187, 187, 0.397);
+}
+
+.timer span {
+  background: #D4000E;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 2px;
+  font-size: 18px;
+}
+.timer p {
+  margin-bottom: 7px;
+}
+
+.banner {
+  margin-top: -48px;
+}
+
+.main-banner h1 {
+  color: #e83636;
+  font-size: 60px;
+  font-weight: bold;
+}
+.main-banner .opac img {
+  background: #d4000e;
+}
+
+.banner-down {
+  position: relative;
+}
+.banner-down img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner-down .opac {
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4274509804);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.banner-down h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff !important;
+  font-size: 36px;
+  line-height: 40px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.banner h3 {
+  font-weight: bold;
+  color: #d4000e;
+  font-size: 23px;
+}
+.banner-inner img {
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main {
+  background: #ECECED;
+  margin-bottom: 20px;
+}
+.main h3 {
+  width: 95px;
+  padding: 5px 25px;
+  background: #D40004;
+  color: #fff;
+}
+.main .mid img {
+  height: 88px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .border-bottom p {
+  font-size: 21px;
+  font-weight: bold;
+}
+.main-left {
+  position: relative;
+}
+.main-left h4 {
+  position: absolute;
+  left: 43px;
+  top: 108px;
+  color: #fff;
+}
+.main-left p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.overlay {
+  position: relative;
+}
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
